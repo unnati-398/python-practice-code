@@ -104,6 +104,23 @@ for i in range(0,3):
         else:
             print("your login attemps are completed try after sometime")
 
+#print numbers 1 to 100 , but print "fizz" for multiple of 3 , "buzz" for the multiple for 5 and "fizzbizz" for multiple for both
+for i in range(1,101):
+    a=i%3
+    b=i%5
+    if (a==0 and b==0):
+        print("fizzbuzz")
+    elif(a==0):
+        print("fizz")
+    elif(b==0):
+        print("buzz")
+    else:
+        print(i)
+            
+
+
+
+
 
 
             
