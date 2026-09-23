@@ -1,5 +1,4 @@
-#check whether the number is eve342n , odd or zero
-from itertools import count
+#check whether the number is even , odd or zero
 
 
 num=int(input("Enter a number:"))
