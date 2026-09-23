@@ -116,6 +116,17 @@ for i in range(1,101):
         print("buzz")
     else:
         print(i)
+
+#To count how many vowels are there in a string
+str1=input("Enter a word : ")
+count=0
+str2=str1.lower()
+for i in str2:
+    if (i=="a" or i=="e" or i=="i" or i=="o" or i=="u"):
+        count+=1
+    else:
+        continue
+print(count)
             
 
 
